@@ -12,4 +12,7 @@ with open('index.html', 'r') as f:
     f.close()
 
     with open("text.txt", "w") as f:
+        f.writelines("**********star of scrape**********\n")
         f.writelines(h2)
+        f.writelines("\n")
+        f.writelines("***********end of scrape**********\n")
